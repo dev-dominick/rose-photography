@@ -68,14 +68,14 @@ export default function Navbar() {
             < NavDrawer />
 
 
-            {/* header for full screen: Dominick The Dev */}
+            {/* header for full screen */}
             <Typography
               variant="h5"
               noWrap
               component="a"
               href="/"
             >
-              Full Screen Name
+              Rose Photography
             </Typography>
 
             {/* mobile header: Dev Dominick */}
