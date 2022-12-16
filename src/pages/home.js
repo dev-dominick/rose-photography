@@ -3,12 +3,15 @@ import '../styles/home.css';
 
 
 
-
 export default function Home() {
 
   return (
     <div className="home">
-        <h1>Home Page</h1>
+      <h1 className='homeHeader'>Life's precious moments caught by a lens</h1>
+      <br></br>
+      <div className='introContainer'>
+        <img className='introPhoto' src={require('../assets/nature7.jpg')} alt='nature'></img>
+      </div>
     </div>
   );
 }
