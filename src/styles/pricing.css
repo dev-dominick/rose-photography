@@ -3,12 +3,24 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
+    margin-top: 9%;
     align-items: center;
 }
 
 .servicesContainer {
+    width: 100vw;
+    height: 50vh;
+    margin: 1rem;
+    border: 1px solid yellow;
     display: flex;
     flex-direction: row;
-    background-color: yellow;
+    justify-content: space-evenly;
+    /* background-color: ; */
+    gap: 5rem;
+
+}
+
+.servicesInfo {
+    border: 1px solid black;
 }
