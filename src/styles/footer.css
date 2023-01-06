@@ -1,16 +1,36 @@
-.footerContainer {
+.footer {
     position: absolute;
     width: 100%;
     display: flex;
+
     justify-content: center;
     bottom: 0;
     /* top: 0; */
+    background-color: yellow;
+    border: 1px solid rebeccapurple;
+    height: 10rem;
+    font-size: 1rem;
 }
 
-.footer {
-    margin-bottom: 1rem;
-    font-size: 10px;
-    color: white;
+.footerContainer {
+    border: 1px solid red;
+    height: 100%;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footerText {
+    line-height: 1rem;
+    margin: 0;
+    /* margin-bottom: 1rem; */
+    /* font-size: 10px; */
+    color: black;
     text-align: center;
     cursor: default;
+}
+
+.footerContact:hover {
+    cursor: pointer;
 }
