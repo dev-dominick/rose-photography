@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/home.css';
-
+import Footer from '../components/footer';
 
 
 export default function Home() {
@@ -12,6 +12,7 @@ export default function Home() {
       <div className='introContainer'>
         <img className='introPhoto' src={require('../assets/nature7.jpg')} alt='nature'></img>
       </div>
+      < Footer />
     </div>
   );
 }
