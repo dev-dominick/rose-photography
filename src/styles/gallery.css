@@ -1,10 +1,41 @@
-.gallery {
+.galleryPage {
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.galleryLayoutContainer {
+  height: 60%;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.gallerySectionContainer {
+  padding: 1rem;
+  border: 1px solid green;
+  width: 25%;
+  max-height: 65%;
+}
+
+.galleryLinkContainer {
+  border: 1px solid red;
+  height: 40%;
+  width: 27%;
+}
+
+.galleryLinkPhoto {
+  height: 100px;
+  width: 100px;
+}
+
+
+
 
 
 
