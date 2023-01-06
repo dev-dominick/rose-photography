@@ -3,10 +3,27 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
+  margin-top: 8%;
   align-items: center;
 }
 
+.introStatementContainer {
+  border: 1px solid red;
+  margin: 0 2.5rem 0 2.5rem;
+}
+
+#statement1 {
+  border: 1px solid green;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#statement2 {
+  border: 1px solid black;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
 
 
 @media screen and (max-width: 1435px) {
