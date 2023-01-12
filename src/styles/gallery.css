@@ -1,14 +1,15 @@
 .galleryPage {
-  width: 100%;
-  height: 100vh;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .galleryLayoutContainer {
-  height: 60%;
+  height: 60vh;
   width: 75%;
   display: flex;
   flex-direction: row;

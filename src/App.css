@@ -1,13 +1,18 @@
 @import-normalize;
 
-.routesContainer {
-  position: absolute;
+.app {
+  display: flex;
+  flex-flow: column nowrap;
   top: 0;
-  background-color: pink;
-  color: black;
-  font-size: calc(10px + 2vmin);
-  width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  /* width: 100vw; */
+  background-color: #242424;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-size: calc(10px + 1vmin);
+  color: white;
+
 }
 
-
+.main {
+  flex-grow: 1;
+}

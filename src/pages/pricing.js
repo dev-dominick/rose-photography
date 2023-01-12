@@ -1,10 +1,11 @@
 import React from 'react'
 import '../styles/pricing.css'
+import '../App.css'
 
 
 export default function Pricing() {
     return (
-        <div className='pricing'>
+        <div className='pricing main'>
             <h1>Princing / Services</h1>
 
             <section className='servicesContainer'>

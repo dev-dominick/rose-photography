@@ -1,19 +1,16 @@
 .footer {
-    position: absolute;
+    position: relative;
+    bottom: 0;
     width: 100%;
     display: flex;
-
     justify-content: center;
-    bottom: 0;
-    /* top: 0; */
     background-color: yellow;
-    border: 1px solid rebeccapurple;
-    height: 10rem;
-    font-size: 1rem;
+    height: 6rem;
+    font-size: calc(1rem);
 }
 
 .footerContainer {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 100%;
     width: 33%;
     display: flex;
@@ -22,7 +19,7 @@
 }
 
 .footerText {
-    line-height: 1rem;
+    /* line-height: 1rem; */
     margin: 0;
     /* margin-bottom: 1rem; */
     /* font-size: 10px; */

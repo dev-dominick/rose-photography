@@ -27,6 +27,48 @@ export default function Gallery() {
       src: require('../assets/ayarsKids/ayarsKids3.jpg'),
       alt: 'gallery page for baby pictures'
     },
+    {
+      pageName: 'Precious Moments',
+      href: '/gallery1',
+      description: "All of life's precious moments captured",
+      src: require('../assets/ayarsKids/ayarsKids1.jpg'),
+      alt: 'gallery page for baby pictures'
+    },
+    {
+      pageName: 'Family',
+      href: '/gallery2',
+      description: 'Photos of family',
+      src: require('../assets/ayarsKids/ayarsKids2.jpg'),
+      alt: 'gallery page for baby pictures'
+    },
+    {
+      pageName: 'Nature',
+      href: '/gallery3',
+      description: 'nature captured',
+      src: require('../assets/ayarsKids/ayarsKids3.jpg'),
+      alt: 'gallery page for baby pictures'
+    },
+    {
+      pageName: 'Precious Moments',
+      href: '/gallery1',
+      description: "All of life's precious moments captured",
+      src: require('../assets/ayarsKids/ayarsKids1.jpg'),
+      alt: 'gallery page for baby pictures'
+    },
+    {
+      pageName: 'Family',
+      href: '/gallery2',
+      description: 'Photos of family',
+      src: require('../assets/ayarsKids/ayarsKids2.jpg'),
+      alt: 'gallery page for baby pictures'
+    },
+    {
+      pageName: 'Nature',
+      href: '/gallery3',
+      description: 'nature captured',
+      src: require('../assets/ayarsKids/ayarsKids3.jpg'),
+      alt: 'gallery page for baby pictures'
+    },
   ]
 
 

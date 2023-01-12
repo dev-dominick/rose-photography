@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/aboutMe.css'
-
+import '../App.css'
 
 export default function About() {
   return (
-    <div className='about'>
+    <div className='about main'>
       <h1>About Me!!!!</h1>
       <section className='introStatementContainer'>
         <p id='statement1'>

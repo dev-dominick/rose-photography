@@ -1,7 +1,7 @@
 import React from "react";
 import ContactForm from "../components/ContactForm";
 import "../styles/contactMe.css";
-import Footer from "../components/footer";
+import '../App.css'
 import Socials from "../components/socials";
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
@@ -9,7 +9,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 function Contact() {
 
   return (
-    <div className="ContactPageStyles">
+    <div className="contact main">
       <h1 className="pageHeader">Contact Me</h1>
 
       <div className="contactInfo">
@@ -30,7 +30,7 @@ function Contact() {
 
       < Socials />
       < ContactForm />
-      < Footer />
+      {/* < Footer /> */}
 
     </div>
   );

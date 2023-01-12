@@ -1,20 +1,15 @@
-.ContactPageStyles {
+.contact {
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  text-align: center;
   align-items: center;
-  background-color: #242424;
-  min-height: 100vh;
-  width: 100%;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  position: absolute;
-  top: 0;
 }
 
 .pageHeader {
-  margin-top: 8rem;
+  /* margin-top: 8rem; */
 }
 
 .contactInfo {
@@ -129,7 +124,7 @@
 
 @media screen and (max-width: 1400px) {
   .pageHeader {
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
   }
 
   .formBox {
