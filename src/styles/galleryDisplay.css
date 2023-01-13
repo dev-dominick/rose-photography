@@ -1,0 +1,10 @@
+.galleryDisplay {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

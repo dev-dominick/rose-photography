@@ -9,10 +9,10 @@
 }
 
 .servicesContainer {
-    width: 100vw;
+    width: 80vw;
     height: 50vh;
     margin: 1rem;
-    border: 1px solid yellow;
+    border: 1px solid white;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -22,5 +22,11 @@
 }
 
 .servicesInfo {
-    border: 1px solid black;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    /* border: 1px solid black; */
+}
+
+.serviceHeader {
+    font-size: calc(2rem + 2px);
 }

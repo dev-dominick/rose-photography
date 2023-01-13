@@ -1,5 +1,7 @@
 import React from 'react';
 import Carousel from '../components/Carousel';
+import '../styles/galleryDisplay.css'
+import '../App.css'
 
 function gallery1() {
 
@@ -12,7 +14,7 @@ const kidPics = [
 ]
 
   return (
-    <div>
+    <div className='galleryDisplay main'>
      <Carousel slides={kidPics} /> 
         
     </div>

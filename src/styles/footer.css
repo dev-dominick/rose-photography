@@ -3,6 +3,7 @@
     bottom: 0;
     width: 100%;
     display: flex;
+    flex-flow: row nowrap;
     justify-content: center;
     background-color: yellow;
     height: 6rem;

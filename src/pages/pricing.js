@@ -11,15 +11,15 @@ export default function Pricing() {
             <section className='servicesContainer'>
 
                 <div className='servicesInfo'>
-                    <h5> 1 Hour Shoots </h5>
+                    <h5 className='serviceHeader'> 1 Hour Shoots </h5>
                     <p>With 15 edited photos - $150</p>
-                    <p>With 15 edited photos - $150</p>
-                    <p>With 15 edited photos - $150</p>
-                    <p>With 15 edited photos - $150</p>
+                    <p>With 30 edited photos - $200</p>
+                    <p>With 45 edited photos - $250</p>
+                    <p>With 60 edited photos - $300</p>
                 </div>
 
                 <div className='servicesInfo'>
-                    <h5>Special Event Packages(Showers, Parties)</h5>
+                    <h5 className='serviceHeader'>Special Event Packages <br></br> (Showers, Parties)</h5>
                     <p>less than 25 miles</p>
                     <p>Full Album 75-100 photos - $350</p>
                     <p>over 25 miles</p> 

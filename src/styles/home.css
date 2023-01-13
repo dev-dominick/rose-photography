@@ -2,6 +2,7 @@
   margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
+  min-height: 80vh;
 
   display: flex;
   flex-direction: column;
