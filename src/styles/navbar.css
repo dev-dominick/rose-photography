@@ -14,14 +14,24 @@
   margin: 1rem 2rem 1rem 1rem !important;
 }
 
+.toolbarCon {
+  /* border: 1px solid green; */
+  height: 100%;
+}
+
 .navLogoContainer {
-  width: 20%;
-  height: 10%;
+  /* border: 1px solid red; */
+  width: 15%;
+  height: 40%;
 }
 
 .navLogo {
-  width: 50%;
+  width: 100%;
   height: 100%;
+}
+
+.boxCon {
+  /* border: 1px solid black; */
 }
 
 .toUnderline:hover {
