@@ -17,7 +17,7 @@ const styles = {
   },
   icon: {
     '& .MuiBottomNavigationAction-root': {
-      color: 'red',
+      // color: 'black !important',
       width: '1px'
     },
     "& .Mui-selected,  svg": {
