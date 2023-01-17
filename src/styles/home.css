@@ -1,5 +1,5 @@
 .home {
-  margin-top: 10%;
+  margin-top: 13%;
   margin-left: auto;
   margin-right: auto;
   min-height: 80vh;
@@ -9,6 +9,18 @@
   align-items: center;
 }
 
+.welcomeBanner {
+  width: 90vw;
+  height: 10vh;
+  text-align: center;
+
+  background-color: black;
+}
+
+.bannerText {
+  color: white;
+}
+
 /* .homeHeader {
 
 
@@ -16,37 +28,27 @@
 
 .homeDisplay {
   /* border: 1px solid red; */
-  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  width: 90vw;
   height: 60vh;
 }
 
-.homeDisplay1 {
-  float: left;
-  background-color: purple;
-  width: 50%;
-  height: 50%;
-}
 
-.homeDisplay2 {
-  position: relative;
-  float: right;
-  top: 50%;
-  background-color: pink;
-  width: 50%;
-  height: 50%;
-}
 
 
 .homeDisplayPhoto {
-  z-index: 1;
-  position: absolute;
-  margin-left: 9%;
-  margin-top: 5%;
   width: 42vw;
   height: 42vh;
   background-color: white;
 }
 
+.homeBtn {
+  margin-top: 1rem;
+}
 
 
 
@@ -71,5 +73,6 @@
   cursor: default;
   /* opacity: 0.7; */
 }
+
 
 @media screen and (max-width: 856px) {}

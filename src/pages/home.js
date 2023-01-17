@@ -1,4 +1,5 @@
 import React from 'react'
+import CustomizedButtons from '../components/Button';
 import '../styles/home.css';
 import '../App.css'
 
@@ -9,19 +10,22 @@ export default function Home() {
 
   return (
     <div className="home main">
-      <h1 className='homeHeader'>Life's precious moments caught by a lens</h1>
-      {/* <br></br> */}
 
-      <div className='homeDisplay'>
+      <header className='welcomeBanner'>
+        <h1 className='bannerText'>Welcome to Rose Photography</h1>
+      </header>
 
-        <div className='homeDisplay1'></div>
+      <section className='homeDisplay'>
+
         <div className='homeDisplayPhoto'>
-          <img className='introPhoto' src={require('../assets/nature7.jpg')} alt='nature'></img>
+          <img className='introPhoto' src={require('../assets/coverPhotos/homepage.jpg')} alt='nature'></img>
         </div>
-        <div className='homeDisplay2'></div>
+        <div className='homeBtn'>
+          < CustomizedButtons text={"See More"} to={'/gallery'} />
+        </div>
 
-      </div>
-      {/* < Footer /> */}
+      </section>
+
     </div>
   );
 }
