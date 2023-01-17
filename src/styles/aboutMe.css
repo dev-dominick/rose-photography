@@ -1,26 +1,54 @@
 .about {
-  margin-top: 10%;
+  margin-top: 13%;
   margin-left: auto;
   margin-right: auto;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
 }
 
-.introStatementContainer {
-  border: 1px solid red;
-  margin: 0 2.5rem 0 2.5rem;
+.aboutDisplay {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  height: 45vh;
+}
+
+.profilePicContainer {
+  /* border: 1px solid red; */
+  height: 30vh;
+  width: 30vw;
+  margin: auto;
+}
+
+.profilePic {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutDescritptionContainer {
+  width: 45vw;
+  height: 30vh;
+  /* border: 1px solid red; */
+  /* margin: 0 6.5rem 0 6.5rem; */
+  text-align: center;
+  margin: auto;
+}
+
+.statement {
+  font-size: 1rem;
 }
 
 #statement1 {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
 #statement2 {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-left: 2rem;
   margin-right: 2rem;
 }
