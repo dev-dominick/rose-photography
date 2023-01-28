@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../styles/carousel.css'
 
 
-export default function Carousel  ({ slides }) {
+export default function Carousel({ slides, allPhotos }) {
 
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -17,13 +17,37 @@ export default function Carousel  ({ slides }) {
   const handleNext = () => {
     setCurrentIndex(currentIndex => (currentIndex + 1) % slides.length);
   };
+  const handleBack = () => {
+    setCurrentIndex(currentIndex => (currentIndex - 1) % slides.length);
+  };
 
   return (
-    <div>
-      <button onClick={handleNext}>Next</button>
+    <div className='carousel'>
+
+      {/* <div>
+        <img className='slideImage' src={slides[currentIndex]}></img>
+      </div>
+
+
+      <div className='photoDisplayContainer'>
+        <button onClick={handleBack}>Back</button>
+        <button onClick={handleNext}>Next</button>
         <div>
-            <img className='slideImage' src={slides[currentIndex]}></img>
+          <img className='slideImage' src={slides[currentIndex]}></img>
         </div>
+      </div> */}
+
+      {allPhotos.map((p) => (
+
+
+        <div className='hey'>
+          <div className='display'>
+            <img className='slideImage' id='src' src={p.src} alt={"hey"} />
+          </div>
+        </div>
+
+      ))}
+
     </div>
   );
 };
