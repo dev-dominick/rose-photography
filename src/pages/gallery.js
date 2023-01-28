@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/gallery.css";
 // import Carousel from '../components/Carousel';
-import TestGallery from '../components/TestGallery';
+import GalleryGroup from '../components/GalleryGroup';
 
 export default function Gallery() {
 
@@ -57,25 +57,9 @@ export default function Gallery() {
     <div className='galleryPage'>
       <h1>Gallery Page</h1>
 
-      < TestGallery />
+      < GalleryGroup />
 
-      {/* <div className='galleryNavContainer'>
-        {galleryPages.map((page) => (
 
-          <div className='galleryNavSelection'>
-
-            <img className='galleryNavSelectionPhoto' src={page.src} alt={page.alt}></img>
-
-            <div className='galleryNavSelectionBottom'>
-              <div className='galleryNavSelectionDescription'>{page.description}</div>
-              <button className='galleryNavSelectionButton' >See More</button>
-            </div>
-
-          </div>
-
-        ))}
-
-      </div> */}
     </div>
   );
 }
