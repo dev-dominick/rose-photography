@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/testGallery.css'
+import '../styles/GalleryGroup.css'
 
 function TestGallery(img, alt) {
 
@@ -54,7 +54,7 @@ function TestGallery(img, alt) {
             <div className='testGallery'>
 
                 <div class='gallery__item gallery__item--1'>
-                    <img src={require('../assets/coverPhotos/homepage.jpg')} class="gallery__img" alt={alt}></img>
+                    <a href='/Gallery1'><img src={require('../assets/coverPhotos/homepage.jpg')} class="gallery__img" alt={alt}></img></a>
                 </div>
 
                 <div class="gallery__item gallery__item--2">
