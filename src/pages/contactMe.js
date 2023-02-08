@@ -10,25 +10,27 @@ function Contact() {
 
   return (
     <div className="contact main">
-      <h1 className="pageHeader">Contact Me</h1>
+      <header className='welcomeBanner'>
+        <h1 className='bannerText'>Contact Me</h1>
+      </header>
 
       <div className="contactContainer">
 
         <div className="contactInfoBox">
           < EmailIcon />
           <h5 className="contactInfoText">Email Me!</h5>
-          <h6 className="contactInfoText">------ Heather's Email -------</h6>
+          <h6 className="contactInfoText">heather.marinari@aol.com</h6>
         </div>
 
         <div className="contactInfoBox">
           < LocationOnIcon />
           <h5 className="contactInfoText">Located in</h5>
-          <h6 className="contactInfoText">Greater Philadelphia Area</h6>
+          <h6 className="contactInfoText">South Jersey</h6>
         </div>
 
         <div className="contactInfoBox">
           < Socials />
-          <h5 className="contactInfoText">Reach out on social media</h5>
+          <h5 className="contactInfoText">Check out my socials</h5>
         </div>
 
       </div>

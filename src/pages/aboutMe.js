@@ -5,8 +5,10 @@ import '../App.css'
 export default function About() {
   return (
     <div className='about main'>
+      <header className='welcomeBanner'>
+        <h1 className='bannerText'>Meet Heather</h1>
+      </header>
 
-      <h1 className='aboutHeader'>Meet Heather</h1>
       <div className='aboutDisplay'>
 
         <div className='profilePicContainer'>

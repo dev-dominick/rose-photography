@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/gallery.css";
 // import Carousel from '../components/Carousel';
-import GalleryGroup from '../components/GalleryGroup';
+import GalleryDisplay from '../components/GalleryDisplay';
 
 export default function Gallery() {
 
@@ -55,9 +55,10 @@ export default function Gallery() {
   return (
 
     <div className='galleryPage'>
-      <h1>Gallery Page</h1>
-
-      < GalleryGroup />
+      <header className='welcomeBanner'>
+        <h1 className='bannerText'>Gallery</h1>
+      </header>
+      < GalleryDisplay />
 
 
     </div>
