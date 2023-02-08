@@ -11,7 +11,7 @@ const GalleryCarousel = ({ images }) => {
     return (
 
         <div className='carousel'>
-            <Carousel images={images} style={{ height: 700, width: 1000 }} />
+            <Carousel images={ images } style={{ height: 700, width: 1000 }} />
         </div>
     );
 };
