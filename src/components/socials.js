@@ -1,9 +1,8 @@
 import * as React from 'react';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import EmailIcon from '@mui/icons-material/Email';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
 import '../styles/socials.css'
 
 
@@ -14,6 +13,7 @@ const styles = {
     // width: '100%',
     backgroundColor: 'transparent',
     // marginBottom: '1rem'
+    textDecoration: 'none',
   },
   icon: {
     '& .MuiBottomNavigationAction-root': {
@@ -48,27 +48,19 @@ export default function Socials() {
     >
       <BottomNavigationAction
         sx={styles.icon}
-        href="https://github.com/dev-dominick"
+        href="https://facebook.com"
         target="_blank"
         // label="GitHub"
-        value="GitHub"
-        icon={<GitHubIcon />}
+        value="FaceBook"
+        icon={<FacebookIcon />}
       />
       <BottomNavigationAction
         sx={styles.icon}
-        href="https://www.linkedin.com/in/dominick-albano/"
+        href="https://instagram.com"
         target="_blank"
         // label="LinkedIn"
-        value="LinkedIn"
-        icon={<LinkedInIcon />}
-      />
-      <BottomNavigationAction
-        sx={styles.icon}
-        href="/contact"
-        // target="_blank"
-        // label="Twitter"
-        value="nearby"
-        icon={<EmailIcon />}
+        value="Instagram"
+        icon={<InstagramIcon />}
       />
     </BottomNavigation>
   );
