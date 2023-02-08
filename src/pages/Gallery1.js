@@ -1,7 +1,7 @@
 import React from 'react';
 // import Carousel from '../components/Carousel';
 import GalleryCarousel from '../components/GalleryCarousel';
-import '../styles/galleryDisplay.css'
+import '../styles/galleryCarouselLayout.css'
 import '../App.css'
 
 function gallery1() {
@@ -20,11 +20,11 @@ function gallery1() {
 
 
   return (
-    <div className='galleryDisplay main'>
+    <div className='carouselLayout main'>
       {/* <Carousel slides={kidPics} allPhotos={kidPics}/> */}
       < GalleryCarousel images={kidPics} />
     </div>
-  )
-}
+  );
+};
 
 export default gallery1
