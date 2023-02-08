@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-family: 'Rochester', cursive;
 }
