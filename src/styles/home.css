@@ -3,14 +3,14 @@
   margin-left: auto;
   margin-right: auto;
   min-height: 80vh;
-
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.welcomeBanner {
-  width: 90vw;
+/* .welcomeBanner {
+  width: 100%;
   height: 10vh;
   text-align: center;
 
@@ -19,7 +19,7 @@
 
 .bannerText {
   color: white;
-}
+} */
 
 /* .homeHeader {
 

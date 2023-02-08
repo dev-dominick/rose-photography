@@ -15,10 +15,11 @@
 .contactContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   width: 75vw;
   min-height: 10rem;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
   gap: 1rem;
 }
 
@@ -35,7 +36,7 @@
   border: 1px solid black;
   padding: 1rem;
   /* border-radius: 1rem; */
-  width: 40%;
+  width: 25%;
 }
 
 

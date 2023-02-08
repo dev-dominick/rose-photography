@@ -2,6 +2,7 @@
   margin-top: 13%;
   margin-left: auto;
   margin-right: auto;
+  /* width: 100%; */
 
   display: flex;
   flex-direction: column;
