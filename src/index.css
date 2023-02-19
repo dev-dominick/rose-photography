@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
 
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 a {
   text-decoration: none;
 }
