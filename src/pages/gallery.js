@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/gallery.css";
-import GalleryDisplay from '../components/GalleryDisplay';
+import GalleryAlbumDisplay from '../components/GalleryAlbumDisplay';
 
 export default function Gallery() {
 
@@ -10,7 +10,7 @@ export default function Gallery() {
       <header className='welcomeBanner'>
         <h1 className='bannerText'>Gallery</h1>
       </header>
-      < GalleryDisplay />
+      < GalleryAlbumDisplay />
     </div>
   );
 }
