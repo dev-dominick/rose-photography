@@ -8,7 +8,7 @@ import Navbar from './components/navbar';
 import Footer from './components/footer'
 import './App.css'
 
-import KidsGallery from "./GalleryPages/KidsGallery";
+import SelectedAlbumDisplay from "./GalleryPages/SelectedAlbumDisplay";
 
 function App() {
   return (
@@ -18,13 +18,13 @@ function App() {
         <Route path="/" element={< Home />} />
         <Route path="/about" element={< About />} />
         <Route path="/gallery" element={< Gallery />} />        
-        <Route path="/gallery/businessgallery" element={< KidsGallery />} />
-        <Route path="/personalgallery" element={< KidsGallery />} />
-        <Route path="/showersgallery" element={< KidsGallery />} />
-        <Route path="/partiesgallery" element={< KidsGallery />} />
-        <Route path="/animalsgallery" element={< KidsGallery />} />
-        <Route path="/kidsgallery" element={< KidsGallery />} />
-        <Route path="/familiesgallery" element={< KidsGallery />} />
+        <Route path="/gallery/businessgallery" element={< SelectedAlbumDisplay  />} />
+        <Route path="/gallery/personalgallery" element={< SelectedAlbumDisplay />} />
+        <Route path="/gallery/showersgallery" element={< SelectedAlbumDisplay />} />
+        <Route path="/gallery/partiesgallery" element={< SelectedAlbumDisplay />} />
+        <Route path="/gallery/animalsgallery" element={< SelectedAlbumDisplay />} />
+        <Route path="/gallery/kidsgallery" element={< SelectedAlbumDisplay />} />
+        <Route path="/gallery/familiesgallery" element={< SelectedAlbumDisplay />} />
         <Route path="/pricing" element={< Pricing />} />
         <Route path="/contact" element={< Contact />} />
       </Routes>
