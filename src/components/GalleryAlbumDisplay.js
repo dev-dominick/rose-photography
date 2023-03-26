@@ -9,7 +9,7 @@ function GalleryAlbumDisplay() {
         name: '',
         description: ''
     });
-
+// find pics for categories that are listed, 
     const albumInformation = [
         {
             pageName: 'Business',
