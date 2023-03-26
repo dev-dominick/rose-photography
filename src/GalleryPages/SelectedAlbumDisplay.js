@@ -29,27 +29,28 @@ function SelectedAlbumDisplay() {
       images = [];
       break;
     case 'Kids':
-      images = [{
-        original: require('../assets/Albums/KidsAlbum/ayarsKids1.jpg'),
-        thumbnail: require('../assets/Albums/KidsAlbum/ayarsKids1.jpg'),
-      },
-      {
-        original: require('../assets/Albums/KidsAlbum/ayarsKids2.jpg'),
-        thumbnail: require('../assets/Albums/KidsAlbum/ayarsKids2.jpg'),
-      },
-      {
-        original: require('../assets/Albums/KidsAlbum/ayarsKids3.jpg'),
-        thumbnail: require('../assets/Albums/KidsAlbum/ayarsKids3.jpg'),
-      },
-      {
-        original: require('../assets/Albums/KidsAlbum/ayarsKids4.jpg'),
-        thumbnail: require('../assets/Albums/KidsAlbum/ayarsKids4.jpg'),
-      },
-      {
-        original: require('../assets/Albums/KidsAlbum/ayarsKids5.jpg'),
-        thumbnail: require('../assets/Albums/KidsAlbum/ayarsKids5.jpg'),
-      }
-    ];
+      images = [
+        {
+          original: require('../assets/Albums/KidsAlbum/ayarsKids1.jpg'),
+          thumbnail: require('../assets/Albums/KidsAlbum/ayarsKids1.jpg'),
+        },
+        {
+          original: require('../assets/Albums/KidsAlbum/ayarsKids2.jpg'),
+          thumbnail: require('../assets/Albums/KidsAlbum/ayarsKids2.jpg'),
+        },
+        {
+          original: require('../assets/Albums/KidsAlbum/ayarsKids3.jpg'),
+          thumbnail: require('../assets/Albums/KidsAlbum/ayarsKids3.jpg'),
+        },
+        {
+          original: require('../assets/Albums/KidsAlbum/ayarsKids4.jpg'),
+          thumbnail: require('../assets/Albums/KidsAlbum/ayarsKids4.jpg'),
+        },
+        {
+          original: require('../assets/Albums/KidsAlbum/ayarsKids5.jpg'),
+          thumbnail: require('../assets/Albums/KidsAlbum/ayarsKids5.jpg'),
+        }
+      ];
       break;
     case 'Families':
       images = [];
@@ -63,7 +64,7 @@ function SelectedAlbumDisplay() {
     <div className='carouselLayout main'>
       <h1>{albumName}</h1>
       <h3>{albumDescription}</h3>
-      <AlbumCarousel albumImages={ images } />
+      <AlbumCarousel albumImages={images} />
     </div>
   );
 };
