@@ -98,38 +98,44 @@ export default function Navbar() {
     <AppBar
       // color='primary'
       sx={{
-        backgroundColor: 'white !important',
-        boxShadow: scrolled ? '"black !important"' : 'none !important',
-        height: { xs: "", sm: "", md: "", lg: "", xl: "21%", },
+        border: '11px solid green',
+        // backgroundColor: { xs: 'yellow !important', sm: 'yellow !important', md: 'yellow !important', lg: 'yellow !important', xl: 'yellow !important', },
+        backgroundColor: scrolled ? 'orange !important' : 'red !important',
+        boxShadow: scrolled ? 'black !important' : 'yellow !important',
+        height: { xs: "", sm: "", md: "12rem", lg: "12rem", xl: "12rem", },
+        width: '100% !important'
         // display: 'flex', flexDirection: 'column'
       }}
     >
       <Container
         maxWidth="x1"
-        // sx={{
-        //   height: '100% !important',
-        //   // padding: "1rem",
-        //   alignContent: { xs: "", sm: "", md: "center", lg: "center", xl: "center", },
-        //   alignItems: { xs: "", sm: "", md: "center", lg: "center", xl: "center", },
-        //   flexFlow: { xs: "", sm: "", md: "row nowrap", lg: "row nowrap", xl: "row nowrap", },
-        //   height: { xs: "", sm: "", md: "5rem", lg: "5rem", xl: "5rem", },
-        //   justifyContent: { xs: "", sm: "", md: "center", lg: "center", xl: "center", },
+        sx={{
+          // height: '50% !important',
+          // padding: "1rem",
+          alignContent: { xs: "", sm: "", md: "center", lg: "center", xl: "center", },
+          alignItems: { xs: "", sm: "", md: "center", lg: "center", xl: "center", },
+          flexFlow: { xs: "", sm: "", md: "row nowrap", lg: "row nowrap", xl: "row nowrap", },
+          height: { xs: "", sm: "20rem", md: "20rem", lg: "100%", xl: "100%", },
+          justifyContent: { xs: "", sm: "", md: "center", lg: "center", xl: "center", },
 
-        // }}
+        }}
       >
         {/* app content container */}
         <Toolbar
           disableGutters
           className="toolbarCon"
           sx={{
-            // height: '100%',
+            height: '100%',
             display: { xs: "flex", sm: "flex", md: "flex", lg: "flex", xl: "flex" },
             flexDirection: { xs: "row-reverse", sm: "row-reverse", md: "row", lg: "column", xl: "column" },
             alignItems: 'center'
           }} >
 
           {/* Menu Icon for mobile */}
-          < NavDrawer />
+          {/* <div className="mobileNavButton">
+           < NavDrawer />
+          </div> */}
+          
 
           <a className="navLogoContainer" href="/">
             <img className="navLogo" src={require('../assets/logos/logoTransparDark.png')} alt='nature'></img>
@@ -169,13 +175,15 @@ export default function Navbar() {
           <Box
             className="boxCon"
             sx={{
+              gap: '3rem',
+              border: "1px solid black !important",
               // paddingTop: '5rem',
               flexGrow: 1,
               display: { xs: "none", sm: "none", md: "flex", lg: "flex", xl: "flex", },
               // paddingRight: { sm: "none", md: "0rem", lg: "5rem", xl: "8rem" },
               flexFlow: { xs: "", sm: "", md: "row nowrap", lg: "row nowrap", xl: "row nowrap", },
               alignItems: { xs: "", sm: "", md: "center", lg: "center", xl: "center", },
-              // height: { xs: "", sm: "", md: "5rem", lg: "5rem", xl: "5rem", },
+              height: { xs: "", sm: "", md: "1rem", lg: "1rem", xl: "1rem", },
               justifyContent: { xs: "", sm: "", md: "flex-end", lg: "flex-end", xl: "flex-end", },
             }}
           >
@@ -188,20 +196,20 @@ export default function Navbar() {
               to="/"
               variant="contained"
               sx={{
-                padding: {
-                  xs: "none",
-                  sm: "none",
-                  md: ".5rem 0.5rem 0.5rem 0.5rem",
-                  lg: ".5rem 0.5rem 0.5rem 0.5rem",
-                  xl: ".5rem 0.5rem 0.5rem 0.5rem",
-                },
+                // padding: {
+                //   xs: "none",
+                //   sm: "none",
+                //   md: ".5rem .5rem .5rem .5rem",
+                //   lg: ".5rem .5rem .5rem .5rem",
+                //   xl: ".5rem .5rem .5rem .5rem",
+                // },
 
                 margin: {
                   xs: "none",
                   sm: "none",
-                  md: '0.9rem .5rem 2rem .5rem',
-                  lg: '0.9rem 1.5rem 2rem 1.5rem',
-                  xl: '0.9rem 1.5rem 2rem 1.5rem',
+                  md: '0.5rem .5rem .5rem .5rem',
+                  lg: '0.5rem .5rem .5rem .5rem',
+                  xl: '0.5rem .5rem .5rem .5rem',
                 },
               }}
             >
@@ -217,20 +225,20 @@ export default function Navbar() {
               to="about"
               variant="contained"
               sx={{
-                padding: {
-                  xs: "none",
-                  sm: "none",
-                  md: ".5rem 0.5rem 0.5rem 0.5rem",
-                  lg: ".5rem 0.5rem 0.5rem 0.5rem",
-                  xl: ".5rem 0.5rem 0.5rem 0.5rem",
-                },
+                // padding: {
+                //   xs: "none",
+                //   sm: "none",
+                //   md: ".5rem 0.5rem 0.5rem 0.5rem",
+                //   lg: ".5rem 0.5rem 0.5rem 0.5rem",
+                //   xl: ".5rem 0.5rem 0.5rem 0.5rem",
+                // },
 
                 margin: {
                   xs: "none",
                   sm: "none",
-                  md: '0.9rem .5rem 2rem .5rem',
-                  lg: '0.9rem 1.5rem 2rem 1.5rem',
-                  xl: '0.9rem 1.5rem 2rem 1.5rem',
+                  md: '0.5rem .5rem .5rem .5rem',
+                  lg: '0.5rem .5rem .5rem .5rem',
+                  xl: '0.5rem .5rem .5rem .5rem',
                 },
               }}
             >
@@ -238,7 +246,7 @@ export default function Navbar() {
             </NavButton>
 
             {/* Gallery Button */}
-            <NavButton
+            {/* <NavButton
               color='secondary'
 
               className="toUnderline"
@@ -265,7 +273,7 @@ export default function Navbar() {
               }}
             >
               GALLERY
-            </NavButton>
+            </NavButton> */}
 
             {/* Pricing Button */}
             <NavButton
@@ -277,20 +285,20 @@ export default function Navbar() {
               to="/pricing"
               variant="contained"
               sx={{
-                padding: {
-                  xs: "none",
-                  sm: "none",
-                  md: ".5rem 0.5rem 0.5rem 0.5rem",
-                  lg: ".5rem 0.5rem 0.5rem 0.5rem",
-                  xl: ".5rem 0.5rem 0.5rem 0.5rem",
-                },
+                // padding: {
+                //   xs: "none",
+                //   sm: "none",
+                //   md: ".5rem 0.5rem 0.5rem 0.5rem",
+                //   lg: ".5rem 0.5rem 0.5rem 0.5rem",
+                //   xl: ".5rem 0.5rem 0.5rem 0.5rem",
+                // },
 
                 margin: {
                   xs: "none",
                   sm: "none",
-                  md: '0.9rem .5rem 2rem .5rem',
-                  lg: '0.9rem 1.5rem 2rem 1.5rem',
-                  xl: '0.9rem 1.5rem 2rem 1.5rem',
+                  md: '0.5rem .5rem .5rem .5rem',
+                  lg: '0.5rem .5rem .5rem .5rem',
+                  xl: '0.5rem .5rem .5rem .5rem',
                 },
               }}
             >
@@ -307,20 +315,20 @@ export default function Navbar() {
               to="/contact"
               variant="contained"
               sx={{
-                padding: {
-                  xs: "none",
-                  sm: "none",
-                  md: ".5rem 0.5rem 0.5rem 0.5rem",
-                  lg: ".5rem 0.5rem 0.5rem 0.5rem",
-                  xl: ".5rem 0.5rem 0.5rem 0.5rem",
-                },
+                // padding: {
+                //   xs: "none",
+                //   sm: "none",
+                //   md: ".5rem 0.5rem 0.5rem 0.5rem",
+                //   lg: ".5rem 0.5rem 0.5rem 0.5rem",
+                //   xl: ".5rem 0.5rem 0.5rem 0.5rem",
+                // },
 
                 margin: {
                   xs: "none",
                   sm: "none",
-                  md: '0.9rem .5rem 2rem .5rem',
-                  lg: '0.9rem 1.5rem 2rem 1.5rem',
-                  xl: '0.9rem 1.5rem 2rem 1.5rem',
+                  md: '0.5rem .5rem .5rem .5rem',
+                  lg: '0.5rem .5rem .5rem .5rem',
+                  xl: '0.5rem .5rem .5rem .5rem',
                 },
               }}
             >
@@ -334,6 +342,5 @@ export default function Navbar() {
       </Container>
 
     </AppBar>
-    // </ThemeProvider>
   );
 }
