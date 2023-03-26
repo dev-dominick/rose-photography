@@ -17,7 +17,7 @@ export default function About() {
         </div>
 
         <section className='aboutDescritptionContainer'>
-          <p className='statement' id='statement1'>
+          <p className='statement' >
             Hi Everyone! Welcome to Rose Photography!
             I am new to the photography world in that I am a full-time
             registered nurse. Nursing is something I've loved for a very
@@ -28,7 +28,7 @@ export default function About() {
             sisters, niece and nephews, and friends who are more like family.
           </p>
           <h3>"Life's precious moments are caught by a lens"</h3>
-          <p className='statement' id='statement2'>
+          <p className='statement' >
             I have always been passionate about photography, constantly
             being the photographer for many family and friend events without
             even realizing it. Now is my chance to professionally bring to life
