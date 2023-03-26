@@ -3,7 +3,7 @@
 }
 
 .css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
-  background-color: grey !important;
+  /* background-color: grey !important; */
   height: 14rem !important;
   width: 20rem !important;
   text-align: center !important;
@@ -22,7 +22,7 @@
 .navLogoContainer {
   /* border: 1px solid red; */
   width: 15%;
-  height: 40%;
+  height: 65%;
 }
 
 .navLogo {
@@ -38,5 +38,8 @@
   border-bottom: .2rem black !important;
 }
 
+.mobileNavButton {
+  border: 1px solid red;
+}
 
 
