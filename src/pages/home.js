@@ -1,9 +1,7 @@
 import React from 'react'
-import CustomizedButtons from '../components/Button';
 import '../styles/home.css';
 import '../App.css'
-
-// import Footer from '../components/footer';
+import GalleryAlbumDisplay from '../components/GalleryAlbumDisplay';
 
 
 export default function Home() {
@@ -17,12 +15,14 @@ export default function Home() {
 
       <section className='homeDisplay'>
 
-        <div className='homeDisplayPhoto'>
+        <GalleryAlbumDisplay/>
+
+        {/* <div className='homeDisplayPhoto'>
           <img className='introPhoto' src={require('../assets/coverPhotos/homepage.jpg')} alt='nature'></img>
         </div>
         <div className='homeBtn'>
           < CustomizedButtons text={"See More"} to={'/gallery'} />
-        </div>
+        </div> */}
 
       </section>
 
