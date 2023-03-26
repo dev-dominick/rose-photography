@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import About from './pages/aboutMe'
-import Gallery from './pages/gallery'
+// import Gallery from './pages/gallery'
 import Pricing from "./pages/pricing";
 import Contact from './pages/contactMe'
 import Navbar from './components/navbar';
@@ -10,14 +10,14 @@ import './App.css'
 
 import SelectedAlbumDisplay from "./GalleryPages/SelectedAlbumDisplay";
 
-function App() {
+const App = () => {
   return (
     <div className="app main">
       < Navbar />
       <Routes>
         <Route path="/" element={< Home />} />
         <Route path="/about" element={< About />} />
-        <Route path="/gallery" element={< Gallery />} />        
+        {/* <Route path="/gallery" element={< Gallery />} />         */}
         <Route path="/gallery/businessgallery" element={< SelectedAlbumDisplay  />} />
         <Route path="/gallery/personalgallery" element={< SelectedAlbumDisplay />} />
         <Route path="/gallery/showersgallery" element={< SelectedAlbumDisplay />} />
