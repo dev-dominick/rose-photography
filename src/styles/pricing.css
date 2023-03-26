@@ -22,7 +22,7 @@
   } */
 
 .servicesContainer {
-    width: 80vw;
+    width: 90vw;
     height: 45vh;
     margin-top: 1rem;
     border: 1px solid white;
@@ -40,9 +40,9 @@
     align-items: center;
     width: 100%;
     text-align: center;
-    padding: 1rem;
+    /* padding: 1rem;
     margin-right: 1rem;
-    margin-left: 1rem;
+    margin-left: 1rem; */
     border: 1px solid black;
 }
 
