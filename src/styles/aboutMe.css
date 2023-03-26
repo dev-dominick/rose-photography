@@ -3,7 +3,6 @@
   margin-left: auto;
   margin-right: auto;
   /* width: 100%; */
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,6 +13,7 @@
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  width: 90vw;
   height: 45vh;
 }
 
@@ -40,22 +40,22 @@
 
 .statement {
   font-size: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
-#statement1 {
-  /* border: 1px solid green; */
+/* #statement1 {
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
 #statement2 {
-  /* border: 1px solid black; */
   margin-left: 2rem;
   margin-right: 2rem;
-}
+} */
 
 
-@media screen and (max-width: 1435px) {
+/* @media screen and (max-width: 1435px) {
   .aboutMeText {
     margin: 0rem 4rem 0rem 0rem;
   }
@@ -85,15 +85,13 @@
 
   .aboutIntro {
     flex-direction: column;
-    /* flex-wrap: wrap; */
     margin-top: 1rem;
     margin-bottom: 8rem;
   }
 
   .textContainer {
     width: 100%;
-    /* display: flex;
-    flex-direction: column; */
+
     align-items: center;
     text-align: center;
 }
@@ -131,4 +129,4 @@
 }
 
 @media screen and (max-width: 390px) {
-}
+} */
