@@ -43,11 +43,11 @@
     /* padding: 1rem;
     margin-right: 1rem;
     margin-left: 1rem; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .serviceHeaderContainer {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .serviceHeader {
@@ -68,10 +68,10 @@
 
 .servicePhoto {
     margin-top: 2rem;
-    border: 1px solid black;
-    width: 50%;
+    /* border: 1px solid black; */
+    width: 35%;
 
-    height: 15vh;
+    height: 33vh;
 }
 
 .apples {
@@ -83,12 +83,13 @@
 }
 
 .partyAndShowersHeaderContainer {
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 1rem;
     width: 50%;
     align-items: center;
+    height: 20rem;
 }
 
 .partyAndShowersHeader {
@@ -99,6 +100,6 @@
 
 .partyAndShowersPhoto {
     border: 1px solid black;
-    width: 75%;
-    height: 75%;
+    width: 60%;
+    height: 80%;
 }

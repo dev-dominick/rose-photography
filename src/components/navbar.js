@@ -96,15 +96,11 @@ export default function Navbar() {
 
   return (
     <AppBar
-      // color='primary'
       sx={{
-        border: '11px solid green',
-        // backgroundColor: { xs: 'yellow !important', sm: 'yellow !important', md: 'yellow !important', lg: 'yellow !important', xl: 'yellow !important', },
-        backgroundColor: scrolled ? 'orange !important' : 'red !important',
+        backgroundColor: scrolled ? 'white !important' : 'white !important',
         boxShadow: scrolled ? 'black !important' : 'yellow !important',
         height: { xs: "", sm: "", md: "12rem", lg: "12rem", xl: "12rem", },
         width: '100% !important'
-        // display: 'flex', flexDirection: 'column'
       }}
     >
       <Container
@@ -132,9 +128,9 @@ export default function Navbar() {
           }} >
 
           {/* Menu Icon for mobile */}
-          {/* <div className="mobileNavButton">
+          <div className="mobileNavButton">
            < NavDrawer />
-          </div> */}
+          </div>
           
 
           <a className="navLogoContainer" href="/">
@@ -176,7 +172,9 @@ export default function Navbar() {
             className="boxCon"
             sx={{
               gap: '3rem',
-              border: "1px solid black !important",
+              // border: "1px solid black !important",
+              marginTop: "1rem",
+              marginBottom: "1rem",
               // paddingTop: '5rem',
               flexGrow: 1,
               display: { xs: "none", sm: "none", md: "flex", lg: "flex", xl: "flex", },

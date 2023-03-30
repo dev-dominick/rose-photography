@@ -18,7 +18,7 @@ export default function Pricing() {
                         <h5 className='serviceHeader'> 1 Hour Shoots </h5>
                     </div>
                     <div className='servicePhoto'>
-
+                        <img className='profilePic' src={require('../assets/aboutMePhoto/aboutPhoto.jpg')} alt='Me at the beach'></img>
                     </div>
                     <div className='pricingLayout'>
                         <p className='servicesText'>With 15 edited photos - $150</p>
@@ -38,12 +38,16 @@ export default function Pricing() {
                     <div className='apples'>
                         <div className='partyAndShowersHeaderContainer'>
                             <div className='partyAndShowersHeader'>Showers</div>
-                            <div className='partyAndShowersPhoto'></div>
+                            <div className='partyAndShowersPhoto'>
+                                <img className='profilePic' src={require('../assets/aboutMePhoto/aboutPhoto.jpg')} alt='Me at the beach'></img>
+                            </div>
                         </div>
 
                         <div className='partyAndShowersHeaderContainer'>
                             <div className='partyAndShowersHeader'>Parties</div>
-                            <div className='partyAndShowersPhoto'></div>
+                            <div className='partyAndShowersPhoto'>
+                                <img className='profilePic' src={require('../assets/aboutMePhoto/aboutPhoto.jpg')} alt='Me at the beach'></img>
+                            </div>
                         </div>
                     </div>
 
