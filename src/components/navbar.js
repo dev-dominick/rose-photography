@@ -98,7 +98,7 @@ export default function Navbar() {
     <AppBar
       sx={{
         backgroundColor: scrolled ? 'white !important' : 'white !important',
-        boxShadow: scrolled ? 'black !important' : 'yellow !important',
+        boxShadow: scrolled ? 'black !important' : 'none !important',
         height: { xs: "", sm: "", md: "12rem", lg: "12rem", xl: "12rem", },
         width: '100% !important'
       }}
@@ -129,7 +129,7 @@ export default function Navbar() {
 
           {/* Menu Icon for mobile */}
           <div className="mobileNavButton">
-           < NavDrawer />
+           < NavDrawer className='drawer' />
           </div>
           
 
