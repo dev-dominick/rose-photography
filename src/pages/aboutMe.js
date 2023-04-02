@@ -23,7 +23,7 @@ export default function About() {
             with family, constantly being with and doing things with my parents,
             sisters, niece and nephews, and friends who are more like family.
           </p>
-          <h3>"Life's precious moments are caught by a lens"</h3>
+          <h3 className='quote'>"Life's precious moments are caught by a lens"</h3>
           <p className='statement' >
             I have always been passionate about photography, constantly
             being the photographer for many family and friend events without
