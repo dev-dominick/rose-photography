@@ -14,10 +14,10 @@ import '../styles/navbar.css'
 
 const NavButton = styled(ButtonUnstyled)({
   boxShadow: 'none',
-  fontFamily: 'sans-serif',
-  fontWeight: 'bold',
+  fontFamily: 'Frank Ruhl Libre',
+  // fontWeight: 'bold',
   // fontSize: { xs: "", sm: "", md: "'1rem'", lg: "'1.5rem'", xl: "'3rem'", },
-  fontSize: '1.2rem',
+  fontSize: '2rem',
   textDecoration: 'none',
   color: 'black',
   transition: 'all 150ms ease',
@@ -27,22 +27,8 @@ const NavButton = styled(ButtonUnstyled)({
 
   '&:hover': {
     textDecoration: 'underline',
-    backgroundColor: '#eeff04',
     color: 'black',
   },
-
-  //   '&:active': {
-  //     backgroundColor: '#eeff04',
-  //     boxShadow: 'inset 0 0 13px 3px black!important',
-  //     color: 'black',
-
-  //   },
-
-  //   '&:active:hover': {
-  //     backgroundColor: '#eeff04',
-  //     boxShadow: 'inset 0 0 13px 3px black!important',
-  //     color: 'black',
-  //   },
 });
 
 const FullScreenHeaderSx = {
@@ -60,9 +46,9 @@ const FullScreenHeaderSx = {
   // alignItems: { xs: "", sm: "", md: "center", lg: "center", xl: "center", },
   // height: { xs: "", sm: "", md: "5rem", lg: "5rem", xl: "5rem", },
   // justifyContent: { xs: "", sm: "", md: "flex-end", lg: "flex-end", xl: "flex-end", },
+  
   '&:hover': {
     textDecoration: 'underline',
-    textDecorationColor: '#eeff04'
   }
 };
 
@@ -121,9 +107,10 @@ export default function Navbar() {
     <AppBar
       sx={{
         backgroundColor: scrolled ? "white !important" : "white !important",
-        boxShadow: scrolled ? "black !important" : "none !important",
+        // boxShadow: scrolled ? "black !important" : "none !important",
+        boxShadow: 'black !important',
         height: { sm: "10rem !important", md: "9rem !important", lg: '11rem !important', xl: '16rem !important' },
-        border: "1px solid red !important",
+        // border: "2px solid grey !important",
         paddingTop: "0rem !important"
       }}
     >
