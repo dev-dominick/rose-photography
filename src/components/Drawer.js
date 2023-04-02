@@ -17,8 +17,8 @@ export default function NavDrawer() {
 
     const pages = [
         { title: 'Home', to: '/' },
-        { title: 'About', to: '/about' },
-        { title: 'Projects', to: '/projects' },
+        { title: 'About Me', to: '/about' },
+        { title: 'Pricing', to: '/pricing' },
         { title: 'Contact', to: '/contact' },
     ]
 
@@ -56,6 +56,10 @@ export default function NavDrawer() {
             onKeyDown={toggleDrawer(anchor, false)}
         >
             <List>
+                <a className="navLogoContainerDrawerView" href="/">
+                    <img className="navLogoDrawer" src={require('../assets/logos/logoTransparDark.png')} alt='nature'></img>
+                </a>
+                <div className='drawerUnderLine'></div>
                 {pages.map(({ title, to }) => (
                     <ListItem key={title} disablePadding>
                         <ListItemButton
@@ -67,11 +71,17 @@ export default function NavDrawer() {
                                 primary={title}
                                 sx={{
                                     textAlign: 'center !important',
-                                    marginTop: '1rem !important',
-                                    marginBottom: '1rem !important',
-                                    fontFamily: 'monospace,sans-serif !important',
+                                    padding: 'px !important',
+                                    gap: 'rem !important',
+                                    // border: '1px solid black',
+                                    // marginTop: '1rem !important',
+                                    // marginBottom: '1rem !important',
+                                    // fontFamily: 'monospace,sans-serif !important',
                                     fontSize: '2rem !important',
                                     lineHeight: '1.25 !important',
+                                    // marginTop: '0rem !important',
+                                    // marginBottom: '0rem !important',
+
                                 }}
                             />
                         </ListItemButton>
@@ -95,14 +105,12 @@ export default function NavDrawer() {
                 aria-haspopup="true"
                 onClick={handleDrawerOpen}
                 onClose={handleDrawerClose}
-                color="inherit"
+                color="info"
+                sx={{
+                    display: { sm: 'block', md: 'none', lg: '', }
+                }}
             >
-                <MenuIcon
-                    sx={{
-                        display: { md: 'none', lg: 'none', }
-                    }}
-
-                />
+                <MenuIcon />
             </IconButton>
             <Drawer
                 anchor='right'
@@ -113,7 +121,7 @@ export default function NavDrawer() {
                     //     backgroundColor: 'red !important !important'
                     // },
                     "& .MuiDrawer-paper": {
-                        backgroundColor: 'grey !important'
+                        backgroundColor: 'white !important'
                     },
                 }}
             >

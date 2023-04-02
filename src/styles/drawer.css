@@ -8,8 +8,21 @@
     text-align: center !important;
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
-    font-family: monospace,sans-serif !important;
+    /* font-family: monospace,sans-serif !important; */
     font-size: 2rem !important;
     line-height: 1.25 !important;
 
+}
+
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    justify-content: center !important;
+}
+
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+    background-color: #000000f5 !important;
+}
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
 }
