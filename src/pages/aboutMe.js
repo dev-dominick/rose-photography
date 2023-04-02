@@ -8,14 +8,10 @@ export default function About() {
       <header className='welcomeBanner'>
         <h1 className='bannerText'>Meet Heather</h1>
       </header>
-
       <div className='aboutDisplay'>
-
         <div className='profilePicContainer'>
-
           <img className='profilePic' src={require('../assets/aboutMePhoto/aboutPhoto.jpg')} alt='Me at the beach'></img>
         </div>
-
         <section className='aboutDescritptionContainer'>
           <p className='statement' >
             Hi Everyone! Welcome to Rose Photography!
@@ -38,9 +34,7 @@ export default function About() {
             positive way for all!
           </p>
         </section>
-
       </div>
-
     </div>
   );
 }

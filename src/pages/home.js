@@ -17,13 +17,6 @@ export default function Home() {
 
         <GalleryAlbumDisplay/>
 
-        {/* <div className='homeDisplayPhoto'>
-          <img className='introPhoto' src={require('../assets/coverPhotos/homepage.jpg')} alt='nature'></img>
-        </div>
-        <div className='homeBtn'>
-          < CustomizedButtons text={"See More"} to={'/gallery'} />
-        </div> */}
-
       </section>
 
     </div>

@@ -1,8 +1,8 @@
 .about {
-  margin-top: 13%;
+  margin-top: 14%;
   margin-left: auto;
   margin-right: auto;
-  /* width: 100%; */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -14,7 +14,6 @@
   flex-direction: row;
   gap: 1rem;
   width: 90vw;
-  height: 45vh;
 }
 
 .profilePicContainer {
@@ -44,89 +43,74 @@
   margin-right: 2rem;
 }
 
-/* #statement1 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-#statement2 {
-  margin-left: 2rem;
-  margin-right: 2rem;
-} */
-
-
-/* @media screen and (max-width: 1435px) {
-  .aboutMeText {
-    margin: 0rem 4rem 0rem 0rem;
+@media screen and (max-width: 1536px) {
+  .about {
+    margin-top: 19%;
   }
-}
-
-@media screen and (max-width: 1250px) {
-  .textContainer {
-    gap: 3rem;
+  .profilePicContainer {
+    /* border: 1px solid red; */
+    height: 29vh;
+    width: 35vw;
+    margin: auto;
   }
-
-  .aboutMeText {
-    margin: 0rem 4rem 0rem 0rem;
-  }
-}
-
-@media screen and (max-width: 1080px) {
-  .aboutMeText {
-    margin: 0rem 4rem 0rem 0rem;
-  }
-}
-
-@media screen and (max-width: 980px) {
-
-  .header {
-    margin-top: 10rem;
-  }
-
-  .aboutIntro {
-    flex-direction: column;
-    margin-top: 1rem;
-    margin-bottom: 8rem;
-  }
-
-  .textContainer {
+  
+  .profilePic {
     width: 100%;
-
-    align-items: center;
-    text-align: center;
-}
-
-.aboutMeText {
-  margin: 0rem 0rem 0rem 0rem;
-
-}
-
-.pictureContainer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 3rem;
-}
-
-.aboutImg {
-  height: 300px;
-}
-
-
-}
-
-@media screen and (max-width: 980px) {
-
-  .header {
-    margin-top: 6rem;
+    height: 100%;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .about {
+    margin-top: 15%;
+  }
+
+  .aboutDisplay {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 90vw;
+    height: 45vh;
+  }
+
+  .profilePicContainer {
+    height: 25vh;
+    width: 32vw;
+  }
+
+  .aboutDescritptionContainer {
+    width: 75vw;
+    margin-bottom: 4rem;
+  }
+
+}
+
+
+@media screen and (max-width: 900px) {
+  .about {
+    margin-top: 20%;
+  }
+
+  .profilePicContainer {
+    height: 25vh;
+    width: 55vw;
+  }
+
+  .aboutDescritptionContainer {
+    height: 15vh;
+  }
+
+  .statement {
+    /* height: 22rem; */
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
-  .header {
-    margin-top: 7rem;
+  .about {
+    margin-top: 30%;
   }
 }
-
-@media screen and (max-width: 390px) {
-} */
