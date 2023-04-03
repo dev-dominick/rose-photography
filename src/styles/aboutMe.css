@@ -2,7 +2,7 @@
   margin-top: 14%;
   margin-left: auto;
   margin-right: auto;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -119,5 +119,7 @@
 @media screen and (max-width: 768px) {
   .about {
     margin-top: 30%;
+    min-height: 183vh;
+
   }
 }

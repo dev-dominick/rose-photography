@@ -14,46 +14,170 @@ function SelectedAlbumDisplay() {
 
   switch (albumName) {
     case 'Business':
-      images = [];
+      images = [
+        {
+          original: 'https://rosephotography.b-cdn.net/ayarsKids1.jpg',
+          thumbnail: 'https://rosephotography.b-cdn.net/ayarsKids1.jpg',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        }
+      ];
       break;
     case 'Personal':
-      images = [];
+      images = [
+        {
+          original: 'https://rosephotography.b-cdn.net/ayarsKids1.jpg',
+          thumbnail: 'https://rosephotography.b-cdn.net/ayarsKids1.jpg',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        }
+      ];
       break;
     case 'Showers':
-      images = [];
+      images = [
+        {
+          original: 'https://rosephotography.b-cdn.net/ayarsKids1.jpg',
+          thumbnail: 'https://rosephotography.b-cdn.net/ayarsKids1.jpg',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        }
+      ];
       break;
     case 'Parties':
-      images = [];
+      images = [
+        {
+          original: 'https://rosephotography.b-cdn.net/ayarsKids1.jpg',
+          thumbnail: 'https://rosephotography.b-cdn.net/ayarsKids1.jpg',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        }
+      ];
       break;
     case 'Animals':
-      images = [];
+      images = [
+        {
+          original: 'https://rosephotography.b-cdn.net/ayarsKids1.jpg',
+          thumbnail: 'https://rosephotography.b-cdn.net/ayarsKids1.jpg',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        },
+        {
+          original: '',
+          thumbnail: '',
+        }
+      ];
       break;
     case 'Kids':
       images = [
         {
-          original: require('../assets/Albums/KidsAlbum/ayarsKids1.jpg'),
-          thumbnail: require('../assets/Albums/KidsAlbum/ayarsKids1.jpg'),
+          original: 'https://rosephotography.b-cdn.net/ayarsKids1.jpg',
+          thumbnail: 'https://rosephotography.b-cdn.net/ayarsKids1.jpg',
         },
         {
-          original: require('../assets/Albums/KidsAlbum/ayarsKids2.jpg'),
-          thumbnail: require('../assets/Albums/KidsAlbum/ayarsKids2.jpg'),
+          original: '',
+          thumbnail: '',
         },
         {
-          original: require('../assets/Albums/KidsAlbum/ayarsKids3.jpg'),
-          thumbnail: require('../assets/Albums/KidsAlbum/ayarsKids3.jpg'),
+          original: '',
+          thumbnail: '',
         },
         {
-          original: require('../assets/Albums/KidsAlbum/ayarsKids4.jpg'),
-          thumbnail: require('../assets/Albums/KidsAlbum/ayarsKids4.jpg'),
+          original: '',
+          thumbnail: '',
         },
         {
-          original: require('../assets/Albums/KidsAlbum/ayarsKids5.jpg'),
-          thumbnail: require('../assets/Albums/KidsAlbum/ayarsKids5.jpg'),
+          original: '',
+          thumbnail: '',
         }
       ];
       break;
     case 'Families':
-      images = [];
+      images = [        {
+        original: 'https://rosephotography.b-cdn.net/ayarsKids1.jpg',
+        thumbnail: 'https://rosephotography.b-cdn.net/ayarsKids1.jpg',
+      },
+      {
+        original: '',
+        thumbnail: '',
+      },
+      {
+        original: '',
+        thumbnail: '',
+      },
+      {
+        original: '',
+        thumbnail: '',
+      },
+      {
+        original: '',
+        thumbnail: '',
+      }];
       break;
 
     default:
@@ -62,9 +186,13 @@ function SelectedAlbumDisplay() {
 
   return (
     <div className='carouselLayout main'>
-      <h1>{albumName}</h1>
-      <h3>{albumDescription}</h3>
-      <AlbumCarousel albumImages={images} />
+      <h1 className='carouselPageHeader'>{albumName}</h1>
+      <h3 className='carouselPageHeader'>{albumDescription}</h3>
+      <br/>
+        <br/>
+      <div className='carouselContainer'>
+        <AlbumCarousel albumImages={images} />
+      </div>
     </div>
   );
 };

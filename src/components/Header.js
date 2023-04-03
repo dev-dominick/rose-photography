@@ -17,7 +17,7 @@ const NavButton = styled(ButtonUnstyled)({
   fontFamily: 'Frank Ruhl Libre',
   // fontWeight: 'bold',
   // fontSize: { xs: "", sm: "", md: "'1rem'", lg: "'1.5rem'", xl: "'3rem'", },
-  fontSize: '2rem',
+  fontSize: { sm: '1rem', md: '1.5rem', lg: '2rem' },
   textDecoration: 'none',
   color: 'black',
   transition: 'all 150ms ease',
@@ -107,8 +107,8 @@ export default function Navbar() {
     <AppBar
       sx={{
         backgroundColor: scrolled ? "white !important" : "white !important",
-        // boxShadow: scrolled ? "black !important" : "none !important",
-        boxShadow: 'black !important',
+        boxShadow: scrolled ? "black !important" : "none !important",
+        // boxShadow: 'black !important',
         height: { sm: "10rem !important", md: "9rem !important", lg: '11rem !important', xl: '16rem !important' },
         // border: "2px solid grey !important",
         paddingTop: "0rem !important"

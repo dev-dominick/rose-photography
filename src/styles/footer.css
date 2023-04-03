@@ -32,3 +32,13 @@
 .footerContact:hover {
     cursor: pointer;
 }
+
+@media screen and (max-width: 768) {
+    .footer {
+        
+    }
+
+    .footerContainer {
+        min-height: 9rem;
+    }
+}
