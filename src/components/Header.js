@@ -1,7 +1,6 @@
 import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
 import Toolbar from "@mui/material/Toolbar";
 import Container from "@mui/material/Container";
 import { Link, useLocation } from "react-router-dom";
@@ -31,26 +30,26 @@ const NavButton = styled(ButtonUnstyled)({
   },
 });
 
-const FullScreenHeaderSx = {
-  margin: '.9rem 1.5rem 2rem 1.5rem',
-  padding: '.5rem 0.5rem 0.5rem 0.5rem',
-  display: { xs: "none", sm: "none", md: "flex", lg: "flex", xl: "flex", },
-  paddingLeft: { sm: "none", md: "0rem", lg: "5rem", xl: "8rem" },
-  fontFamily: "monospace",
-  fontSize: '2rem',
-  fontWeight: 700,
-  letterSpacing: ".3rem",
-  color: "white",
-  textDecoration: 'none',
-  // flexFlow: { xs: "", sm: "", md: "row nowrap", lg: "row nowrap", xl: "row nowrap", },
-  // alignItems: { xs: "", sm: "", md: "center", lg: "center", xl: "center", },
-  // height: { xs: "", sm: "", md: "5rem", lg: "5rem", xl: "5rem", },
-  // justifyContent: { xs: "", sm: "", md: "flex-end", lg: "flex-end", xl: "flex-end", },
+// const FullScreenHeaderSx = {
+//   margin: '.9rem 1.5rem 2rem 1.5rem',
+//   padding: '.5rem 0.5rem 0.5rem 0.5rem',
+//   display: { xs: "none", sm: "none", md: "flex", lg: "flex", xl: "flex", },
+//   paddingLeft: { sm: "none", md: "0rem", lg: "5rem", xl: "8rem" },
+//   fontFamily: "monospace",
+//   fontSize: '2rem',
+//   fontWeight: 700,
+//   letterSpacing: ".3rem",
+//   color: "white",
+//   textDecoration: 'none',
+//   // flexFlow: { xs: "", sm: "", md: "row nowrap", lg: "row nowrap", xl: "row nowrap", },
+//   // alignItems: { xs: "", sm: "", md: "center", lg: "center", xl: "center", },
+//   // height: { xs: "", sm: "", md: "5rem", lg: "5rem", xl: "5rem", },
+//   // justifyContent: { xs: "", sm: "", md: "flex-end", lg: "flex-end", xl: "flex-end", },
   
-  '&:hover': {
-    textDecoration: 'underline',
-  }
-};
+//   '&:hover': {
+//     textDecoration: 'underline',
+//   }
+// };
 
 export default function Navbar() {
   const [scrolled, setScrolled] = React.useState(false);
