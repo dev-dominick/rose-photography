@@ -1,6 +1,6 @@
 .carouselLayout {
     margin-top: 15%;
-    /* width: 80vw; */
+    width: 80vw;
 
     margin-left: auto;
     margin-right: auto;
@@ -11,7 +11,12 @@
   }
 
   .carouselPageHeader {
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 1rem 1rem 1rem;
+  }
+
+  .carouselPageDescription {
+    margin: 1rem 1rem 1rem 1rem;
+
   }
   
   .carouselContainer {
@@ -19,3 +24,26 @@
     width: 45vw;
     /* height: 50vh; */
   }
+
+
+@media screen and (max-width: 1200px) {
+  .carouselPageHeader {
+    margin: 4rem 1rem 1rem 1rem;
+  }
+
+  .carouselContainer {
+    margin-bottom: 3rem;
+    width: 65vw;
+    /* height: 50vh; */
+}
+}
+
+
+@media screen and (max-width: 900px) {
+.carouselContainer {
+    margin-bottom: 3rem;
+    width: 65vw;
+    /* height: 50vh; */
+}
+}
+

@@ -31,26 +31,26 @@ const NavButton = styled(ButtonUnstyled)({
   },
 });
 
-const FullScreenHeaderSx = {
-  margin: '.9rem 1.5rem 2rem 1.5rem',
-  padding: '.5rem 0.5rem 0.5rem 0.5rem',
-  display: { xs: "none", sm: "none", md: "flex", lg: "flex", xl: "flex", },
-  paddingLeft: { sm: "none", md: "0rem", lg: "5rem", xl: "8rem" },
-  fontFamily: "monospace",
-  fontSize: '2rem',
-  fontWeight: 700,
-  letterSpacing: ".3rem",
-  color: "white",
-  textDecoration: 'none',
-  // flexFlow: { xs: "", sm: "", md: "row nowrap", lg: "row nowrap", xl: "row nowrap", },
-  // alignItems: { xs: "", sm: "", md: "center", lg: "center", xl: "center", },
-  // height: { xs: "", sm: "", md: "5rem", lg: "5rem", xl: "5rem", },
-  // justifyContent: { xs: "", sm: "", md: "flex-end", lg: "flex-end", xl: "flex-end", },
+// const FullScreenHeaderSx = {
+//   margin: '.9rem 1.5rem 2rem 1.5rem',
+//   padding: '.5rem 0.5rem 0.5rem 0.5rem',
+//   display: { xs: "none", sm: "none", md: "flex", lg: "flex", xl: "flex", },
+//   paddingLeft: { sm: "none", md: "0rem", lg: "5rem", xl: "8rem" },
+//   fontFamily: "monospace",
+//   fontSize: '2rem',
+//   fontWeight: 700,
+//   letterSpacing: ".3rem",
+//   color: "white",
+//   textDecoration: 'none',
+//   // flexFlow: { xs: "", sm: "", md: "row nowrap", lg: "row nowrap", xl: "row nowrap", },
+//   // alignItems: { xs: "", sm: "", md: "center", lg: "center", xl: "center", },
+//   // height: { xs: "", sm: "", md: "5rem", lg: "5rem", xl: "5rem", },
+//   // justifyContent: { xs: "", sm: "", md: "flex-end", lg: "flex-end", xl: "flex-end", },
   
-  '&:hover': {
-    textDecoration: 'underline',
-  }
-};
+//   '&:hover': {
+//     textDecoration: 'underline',
+//   }
+// };
 
 export default function Navbar() {
   const [scrolled, setScrolled] = React.useState(false);
@@ -109,7 +109,7 @@ export default function Navbar() {
         backgroundColor: scrolled ? "white !important" : "white !important",
         boxShadow: scrolled ? "black !important" : "none !important",
         // boxShadow: 'black !important',
-        height: { sm: "10rem !important", md: "9rem !important", lg: '11rem !important', xl: '16rem !important' },
+        height: { sm: "11rem !important", md: "11rem !important", lg: '11rem !important', xl: '16rem !important' },
         // border: "2px solid grey !important",
         paddingTop: "0rem !important"
       }}

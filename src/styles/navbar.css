@@ -20,7 +20,9 @@
 }
 
 
-
+.css-tpw72b-MuiButtonBase-root-MuiIconButton-root{
+  color: white !important;
+}
 
 .toUnderline:hover {
   border-bottom: .2rem black !important;
@@ -48,10 +50,12 @@ z
 
 .testing {
   /* display: none; */
+  /* height: 4rem;
+  width: 4rem; */
   background-color: black;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .testing {
     display: block;
   }

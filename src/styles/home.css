@@ -1,5 +1,5 @@
 .home {
-  margin-top: 14%;
+  margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
   min-height: 80vh;
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 1536px) {
   .home {
-    margin-top: 17%;
+    margin-top: 15%;
   }
 }
 
@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 900px) {
   .home {
-    margin-top: 20%;
+    margin-top: 23%;
   }
 }
 

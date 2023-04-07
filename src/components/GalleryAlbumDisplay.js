@@ -60,7 +60,6 @@ function GalleryAlbumDisplay() {
             src: '',
             alt: 'gallery page of business'
         },
-
     ];
     // console.log(albumHandler);
 
@@ -111,6 +110,6 @@ function GalleryAlbumDisplay() {
             </div>
         </div>
     )
-}
+};
 
 export default GalleryAlbumDisplay;

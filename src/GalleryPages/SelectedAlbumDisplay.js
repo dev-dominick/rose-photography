@@ -187,7 +187,7 @@ function SelectedAlbumDisplay() {
   return (
     <div className='carouselLayout main'>
       <h1 className='carouselPageHeader'>{albumName}</h1>
-      <h3 className='carouselPageHeader'>{albumDescription}</h3>
+      <h3 className='carouselPageDescription'>{albumDescription}</h3>
       <br/>
         <br/>
       <div className='carouselContainer'>

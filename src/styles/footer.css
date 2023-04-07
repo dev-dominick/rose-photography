@@ -33,12 +33,12 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) {
     .footer {
-        
+        height: 9rem;
     }
 
     .footerContainer {
-        min-height: 9rem;
+        /* min-height: 9rem; */
     }
 }
