@@ -4,7 +4,6 @@ import About from './pages/aboutMe'
 // import Gallery from './pages/gallery'
 import Pricing from "./pages/pricing";
 import Contact from './pages/contactMe'
-import Navbar from './components/navbar';
 import Header from './components/Header'
 import Footer from './components/footer'
 import './App.css'
