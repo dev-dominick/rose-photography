@@ -10,36 +10,33 @@ function Contact() {
 
   return (
     <div className="contact main">
-      <header className='welcomeBanner'>
-        <h1 className='bannerText'>Contact Me</h1>
+      <header className="welcomeBanner">
+        <h1 className="bannerText">Contact Me</h1>
       </header>
 
       <div className="contactContainer">
-
         <div className="contactInfoBox">
-          < EmailIcon />
+          <EmailIcon />
           <h5 className="contactInfoText">Email Me!</h5>
-          <h6 className="contactInfoText">heather.marinari@aol.com</h6>
+          <h6 className="contactInfoText">Heather.marinari@gmail.com</h6>
         </div>
 
         <div className="contactInfoBox">
-          < LocationOnIcon />
+          <LocationOnIcon />
           <h5 className="contactInfoText">Located in</h5>
           <h6 className="contactInfoText">South Jersey</h6>
         </div>
 
         <div className="contactInfoBox">
-          < Socials />
+          <Socials />
           <h5 className="contactInfoText">Check out my socials</h5>
         </div>
-
       </div>
 
-      < ContactForm />
-
+      <ContactForm />
     </div>
   );
-}
+};
 
 export default Contact;
 
