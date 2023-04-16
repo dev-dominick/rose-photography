@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import SelectedAlbumDisplay from '../GalleryPages/SelectedAlbumDisplay';
+import SelectedAlbumDisplay from './SelectedAlbumDisplay';
 import '../styles/GalleryDisplay.css'
 
 function GalleryAlbumDisplay() {

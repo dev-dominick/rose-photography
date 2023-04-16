@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/gallery.css";
-import GalleryAlbumDisplay from '../components/GalleryAlbumDisplay';
+import GalleryAlbumDisplay from './GalleryAlbumDisplay';
 
 export default function Gallery() {
 

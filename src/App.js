@@ -8,7 +8,7 @@ import Header from './components/Header'
 import Footer from './components/footer'
 import './App.css'
 
-import SelectedAlbumDisplay from "./GalleryPages/SelectedAlbumDisplay";
+import SelectedAlbumDisplay from "./GalleryComponents/SelectedAlbumDisplay";
 
 const App = () => {
   return (

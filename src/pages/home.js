@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/home.css';
 import '../App.css'
-import GalleryAlbumDisplay from '../components/GalleryAlbumDisplay';
+import GalleryAlbumDisplay from '../GalleryComponents/GalleryAlbumDisplay';
 
 
 export default function Home() {
