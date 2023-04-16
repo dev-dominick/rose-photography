@@ -48,7 +48,7 @@ export default function Socials() {
     >
       <BottomNavigationAction
         sx={styles.icon}
-        href="https://facebook.com"
+        href="https://www.facebook.com/people/Rose-Photography/100085101992994/?mibextid=LQQJ4d"
         target="_blank"
         // label="GitHub"
         value="FaceBook"
@@ -56,7 +56,7 @@ export default function Socials() {
       />
       <BottomNavigationAction
         sx={styles.icon}
-        href="https://instagram.com"
+        href="https://www.instagram.com/rose_vocals_photography/?igshid=YmMyMTA2M2Y%3D"
         target="_blank"
         // label="LinkedIn"
         value="Instagram"
